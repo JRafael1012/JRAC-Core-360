@@ -1,0 +1,70 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif; /* Establece la fuente para el texto de la página */
+  background-color: #f4f4f4; /* Establece el color de fondo de la página */
+  color: #333; /* Establece el color del texto */
+  text-align: center; /* Centra el contenido en la página */
+  padding: 20px; /* Agrega un espaciado de 20px alrededor del contenido */
+}
+
+/* Estilos para el título principal */
+h1 {
+  color: #2c3e50; /* Establece el color del título */
+  margin-top: 20px; /* Agrega un espaciado de 20px en la parte superior del título */
+}
+
+/* Estilos para el formulario de nombre */
+#nameForm {
+  margin-top: 30px; /* Agrega un espaciado de 30px en la parte superior del formulario */
+}
+
+/* Estilos para el campo de texto donde el usuario ingresa su nombre */
+input {
+  padding: 8px; /* Agrega un espaciado dentro del campo de texto */
+  margin-top: 10px; /* Agrega un espaciado de 10px en la parte superior del campo de texto */
+  font-size: 16px; /* Establece el tamaño de la fuente del campo de texto */
+}
+
+/* Estilos para el botón de enviar */
+button {
+  padding: 10px 20px; /* Agrega espaciado dentro del botón */
+  margin-top: 10px; /* Agrega un espaciado de 10px en la parte superior del botón */
+  border: none; /* Elimina el borde del botón */
+  border-radius: 5px; /* Redondea los bordes del botón */
+  background-color: #3498db; /* Establece el color de fondo del botón */
+  color: white; /* Establece el color del texto dentro del botón */
+  font-size: 16px; /* Establece el tamaño de la fuente dentro del botón */
+  cursor: pointer; /* Cambia el cursor a una mano al pasar por encima del botón */
+}
+
+/* Estilo cuando el ratón pasa sobre el botón */
+button:hover {
+  background-color: #2980b9; /* Cambia el color de fondo del botón cuando el ratón pasa por encima */
+}
+
+/* Estilos para el mensaje del asistente personal */
+#assistantMessage {
+  margin-top: 20px; /* Agrega un espaciado de 20px en la parte superior del mensaje */
+  font-size: 18px; /* Establece el tamaño de la fuente del mensaje */
+  color: #2c3e50; /* Establece el color del texto del mensaje */
+}
+
+/* Estilos responsivos para pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+  body {
+    padding: 10px; /* Reduce el espaciado alrededor del contenido en pantallas pequeñas */
+  }
+
+  h1 {
+    font-size: 24px; /* Reduce el tamaño del título en pantallas pequeñas */
+  }
+
+  button {
+    width: 100%; /* Hace que el botón ocupe todo el ancho de la pantalla */
+    padding: 15px; /* Aumenta el espaciado dentro del botón */
+  }
+
+  input {
+    width: 100%; /* Hace que el campo de texto ocupe todo el ancho de la pantalla */
+  }
+}
